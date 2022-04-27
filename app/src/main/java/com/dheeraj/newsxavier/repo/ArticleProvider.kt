@@ -16,8 +16,7 @@ class ArticleProvider {
         val response = retService.getNews()
         emit(response)
     }
-
-    var responseCategoryLiveData: MutableLiveData<Response<NewsItem>> = responseLiveDataLiveData as MutableLiveData<Response<NewsItem>>
+    var responseCategoryLiveData:  MutableLiveData<Response<NewsItem>> = responseLiveDataLiveData as MutableLiveData<Response<NewsItem>>
 
     suspend fun getNews(): LiveData<Response<NewsItem>> = responseLiveDataLiveData
 
