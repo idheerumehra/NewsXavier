@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">NewsXavier</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_save">Save</string>
+    <string name="txt_splash">the only trusted source</string>
+    <string name="source">News Source</string>
+    <string name="title">Title of the news</string>
+    <string name="description">Description of the news</string>
+    <string name="date_of_publication">Published at</string>
+
+    <string name="news">News</string>
+    <string name="x">Xavier</string>
+    <string name="no_internet">No internet connection</string>
+    <string name="saved">image_saved</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="atricle_description">The first two Covid-19 vaccines out of the gate have now delivered positive news in the quest to end the pandemic. The encouraging late-stage trial results from Pfizer Inc. and Moderna Inc. set a high bar for rivals such as AstraZeneca Plc that are expected to follow soon with their own pivotal reports. The data will likely increase confidence that more vaccines will work and that the world may soon find a way to get the coronavirus under control. Here\'s what we know about the two shots. How do the results compare? Moderna said Monday its vaccine was 94.5% effective in a preliminary analysis. That compares favorably with the lofty level achieved a week earlier by Pfizer and its partner, BioNTech SE. The shot created by the U.S. and German companies was found to be more than 90% effective. Moderna data showed that side effects were generally short-lived and there were no significant safety concerns, while no serious Covid cases developed among trial participants who got the vaccine. U.S. regulators earlier this year released guidance that said any shot should be at least 50% effective. What do the two vaccines have in common?</string>
+    <string name="article_title">Moderna Vs Pfizer: When Will The Vaccines Be Ready? - NDTV</string>
+    <string name="BookMark">Bookmark</string>
+    <string name="leave">Leave</string>
+    <string name="apply">Apply</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="delete">Delete?</string>
+    <string name="delete_bookmark_text">Deleting this will permanently remove this bookmark from bookmarks</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_do">Delete</string>
+    <string name="news_title">Coronavirus India LIVE Updates: 30,548 Fresh COVID-19 Cases In India, Lowest Daily Cases In 4 Months</string>
+    <string name="published_date">At 28</string>
+    <string name="bookmark">bookmark</string>
+    <string name="clear_all">Clear all</string>
+    <string name="view">View</string>
+    <string name="choose_theme">Choose Theme</string>
+</resources>

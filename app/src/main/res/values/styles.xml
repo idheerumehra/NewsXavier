@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="title_appearance">
+        <item name="fontFamily">@font/google_sans</item>
+        <item name="android:textSize">23sp</item>
+        <item name="android:textColor">@color/colorRed</item>
+    </style>
+
+    <style name="subtitle_appearance">
+        <item name="fontFamily">@font/google_sans</item>
+        <item name="android:textSize">23sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="SplashScreen" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+
+        <item name="colorPrimary">@color/colorRed</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorRed</item>
+        <item name="colorSurface">@color/colorPrimary</item>
+    </style>
+
+
+    <style name="tab_text" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:fontFamily">@font/google_sans</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+        <item name="thumbRadius">1dp</item>
+
+    </style>
+
+    <style name="Theme.NewsX.NoActionBar" parent="Theme.MaterialComponents.Light.NoActionBar">
+
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimary</item>
+    <item name="colorAccent">@color/colorPrimary</item>
+
+    <item name="android:fontFamily">@font/google_sans</item>
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+
+    <item name="android:windowTranslucentStatus">true</item>
+    <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+
+    <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="Theme.NewsX.AppBarOverlay" parent="ThemeOverlay.MaterialComponents">
+        <item name="android:fontFamily">@font/google_sans</item>
+    </style>
+</resources>
