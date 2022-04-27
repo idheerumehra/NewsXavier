@@ -101,12 +101,11 @@ import com.dheeraj.newsxavier.util.ObjectSerializer
 
      }
 
-
      private fun displayArticles() {
 
          viewModel.responseLiveData.observe(viewLifecycleOwner, Observer {
              if (it != null) {
-                 val articles = it.body()?.articles
+                 val articles = it.result?.articles
                  if (articles != null) {
 
                      if (binding.recyclerView.adapter is NewsTabAdapter)
@@ -135,7 +134,7 @@ import com.dheeraj.newsxavier.util.ObjectSerializer
      private fun deleteBookmark(article: Article) {
 
          val bookmarks = viewModel.bookmarkList.value?.get(
-             viewModel.responseLiveData.value?.body()!!.articles.indexOf(article)
+             viewModel.responseLiveData.value?.result!!.articles.indexOf(article)
          )
          if (bookmarks != null) {
              viewModel.deleteABookmark(bookmarks)
