@@ -5,7 +5,7 @@ import com.dheeraj.newsxavier.model.NewsItem
 import retrofit2.http.GET
 
 interface NewsService {
-    @GET("/v2/top-headlines?country=in&apiKey=")
+    @GET("/v2/top-headlines?country=in&apiKey=08a23b06363f47698aeb112fb7385390")
     suspend fun getNews(): Response<NewsItem>
     @GET("/v2/top-headlines?country=in&category=business&apiKey=08a23b06363f47698aeb112fb7385390")
     suspend fun getNewsOnBusiness(): Response<NewsItem>
